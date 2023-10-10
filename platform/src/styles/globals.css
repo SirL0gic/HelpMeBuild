@@ -1,0 +1,49 @@
+/* Define CSS variables */
+:root {
+  /* Fonts */
+  --main-font: "Arial", sans-serif;
+  --heading-font: "Georgia", serif;
+
+  /* Font Sizes */
+  --font-size-body: 16px;
+  --font-size-heading: 36px;
+  --font-size-subheading: 24px;
+
+  /* Colors */
+  --main-color: #3498db;
+  --secondary-color: #2c3e50;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+}
+
+/* Apply the CSS variables */
+body {
+  font-family: var(--main-font);
+  font-size: var(--font-size-body);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Generic Styles */
+
+
+@media only screen and (max-width: 479px) {
+  /* Styles for Small mobile devices here... */
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* Styles for Big mobile devices here... */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for Tablets and iPads here... */
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  /* Styles for Small Laptops or large tablets here... */
+}
+
+@media only screen and (min-width: 1367px) {
+  /* Styles for Big Laptops and Desktops here... */
+
+}
