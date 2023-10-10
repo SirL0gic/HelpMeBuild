@@ -10,10 +10,10 @@
   --font-size-subheading: 24px;
 
   /* Colors */
-  --main-color: #3498db;
-  --secondary-color: #2c3e50;
-  --text-color: #333;
-  --background-color: #f4f4f4;
+  --main-color: #000000;
+  --secondary-color: #000000;
+  --text-color: #000000;
+  --background-color: #ffffff;
 }
 
 
@@ -27,6 +27,19 @@ body {
   background-color: var(--background-color);
 }
 
+.nav-items {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+#collapsible-nav-dropdown {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: purple;
+}
 
 @media only screen and (max-width: 479px) {
   /* Styles for Small mobile devices here... */
@@ -43,16 +56,16 @@ body {
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   /* Styles for Small Laptops or large tablets here... */
   #responsive-navbar-nav > div.me-auto.navbar-nav {
-    margin-right: 520px !important;
-    margin-left: 520px !important
+    margin-right: 490px !important;
+    margin-left: 490px !important
 }
 }
 
 @media only screen and (min-width: 1367px) {
   /* Styles for Big Laptops and Desktops here... */
   #responsive-navbar-nav > div.me-auto.navbar-nav {
-    margin-right: 520px !important;
-    margin-left: 520px !important
+    margin-right: 490px !important;
+    margin-left: 490px !important
 }
 
 }
