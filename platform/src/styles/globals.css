@@ -16,6 +16,9 @@
   --background-color: #f4f4f4;
 }
 
+
+
+/* Generic Styles */
 /* Apply the CSS variables */
 body {
   font-family: var(--main-font);
@@ -23,8 +26,6 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
 }
-
-/* Generic Styles */
 
 
 @media only screen and (max-width: 479px) {
@@ -41,9 +42,17 @@ body {
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   /* Styles for Small Laptops or large tablets here... */
+  #responsive-navbar-nav > div.me-auto.navbar-nav {
+    margin-right: 520px !important;
+    margin-left: 520px !important
+}
 }
 
 @media only screen and (min-width: 1367px) {
   /* Styles for Big Laptops and Desktops here... */
+  #responsive-navbar-nav > div.me-auto.navbar-nav {
+    margin-right: 520px !important;
+    margin-left: 520px !important
+}
 
 }

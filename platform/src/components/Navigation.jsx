@@ -47,26 +47,28 @@
 
 // export default NavigationBar;
 
-
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "next/link";
 
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container fluid>
-      <Link href="/" passHref>  {/* `passHref` is essential here */}
-          <Navbar.Brand>React-Bootstrap</Navbar.Brand>
+        <Link href="/" passHref>
+          {" "}
+          {/* `passHref` is essential here */}
+          <Navbar.Brand>Help Me Build</Navbar.Brand>
         </Link>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
+            <Nav.Link href="#features">Top Picks</Nav.Link>
+
+            <NavDropdown title="Categories" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -77,11 +79,15 @@ function CollapsibleExample() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
+
+            <Nav.Link href="#pricing">All Tools</Nav.Link>
+            <Nav.Link href="#pricing">About</Nav.Link>
           </Nav>
+
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
+            <Nav.Link href="#deets">Log In</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-              Dank memes
+              Sign Up
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
