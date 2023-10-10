@@ -53,14 +53,14 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "next/link";
 
-function CollapsibleExample() {
+let CollapsibleExample = () => {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container fluid>
         <Link href="/" passHref>
           {" "}
           {/* `passHref` is essential here */}
-          <Navbar.Brand>Help Me Build</Navbar.Brand>
+          <Navbar.Brand>HelpMeBuild</Navbar.Brand>
         </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
