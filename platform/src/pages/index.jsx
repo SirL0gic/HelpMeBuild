@@ -1,10 +1,9 @@
 let Home = () => {
-  return(
+  return (
     <main className="w-full mx-auto min-h-screen">
-      <h1 className="text-red-500">Title</h1>
-
-  </main>
-  ) 
+      <h1 className="text-red-500">hello</h1>
+    </main>
+  );
 };
 
 export default Home;
