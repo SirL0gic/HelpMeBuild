@@ -67,7 +67,9 @@ let CollapsibleExample = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="nav-items" href="#features">Top Picks</Nav.Link>
+            <Nav.Link className="nav-items" href="#features">
+              Top Picks
+            </Nav.Link>
 
             <NavDropdown title="Categories" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -81,14 +83,19 @@ let CollapsibleExample = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link className="nav-items" href="#pricing">All Tools</Nav.Link>
-            <Nav.Link className="nav-items" href="#pricing">About</Nav.Link>
+            <Nav.Link className="nav-items" href="#pricing">
+              All Tools
+            </Nav.Link>
+            <Nav.Link className="nav-items" href="#pricing">
+              About
+            </Nav.Link>
           </Nav>
 
           <Nav>
-            <Nav.Link href="#deets">Log In</Nav.Link>
+            <Nav.Link href="#deets">
+              <Button>Log In</Button>
+            </Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-      
               <Button>Sign Up</Button>
             </Nav.Link>
           </Nav>
@@ -96,6 +103,6 @@ let CollapsibleExample = () => {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default CollapsibleExample;
