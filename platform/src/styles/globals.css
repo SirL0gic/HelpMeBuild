@@ -56,16 +56,16 @@ body {
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   /* Styles for Small Laptops or large tablets here... */
   #responsive-navbar-nav > div.me-auto.navbar-nav {
-    margin-right: 490px !important;
-    margin-left: 490px !important
+    margin-right: 470px !important;
+    margin-left: 470px !important
 }
 }
 
 @media only screen and (min-width: 1367px) {
   /* Styles for Big Laptops and Desktops here... */
   #responsive-navbar-nav > div.me-auto.navbar-nav {
-    margin-right: 490px !important;
-    margin-left: 490px !important
+    margin-right: 470px !important;
+    margin-left: 470px !important
 }
 
 }

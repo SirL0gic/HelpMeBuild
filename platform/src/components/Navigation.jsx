@@ -52,6 +52,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "next/link";
+import { Button } from "react-bootstrap";
 
 let CollapsibleExample = () => {
   return (
@@ -87,7 +88,8 @@ let CollapsibleExample = () => {
           <Nav>
             <Nav.Link href="#deets">Log In</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-              Sign Up
+      
+              <Button>Sign Up</Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
